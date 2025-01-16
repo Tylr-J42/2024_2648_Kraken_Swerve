@@ -1,0 +1,148 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.5740411480822968,
+      "y": 7.021880329474945
+    },
+    "rotation": 180.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Left Subwoofer"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Charge Shooter"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Speaker Note Shot"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "L Sub to Note 1"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Auto Intake"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Note 1 to Speaker"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Charge Shooter"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Speaker Note Shot"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "L Sub to Note 2"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Auto Intake"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Note 2 to L Sub (4S)"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Charge Shooter"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Speaker Note Shot"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Left Sub to Note 3"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Auto Intake"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Left Note 3 to Sub"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Charge Shooter"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Speaker Note Shot"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

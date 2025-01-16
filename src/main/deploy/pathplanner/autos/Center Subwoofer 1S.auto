@@ -1,0 +1,37 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.335622956146197,
+      "y": 5.5196408968316515
+    },
+    "rotation": 179.37978729180955
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "Charge Shooter"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Speaker Note Shot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Center Subwoofer to Center"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

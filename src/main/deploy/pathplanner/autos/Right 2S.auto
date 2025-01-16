@@ -1,0 +1,74 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.4936438362905214,
+      "y": 4.092954054853979
+    },
+    "rotation": 180.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Right Wall to Sub"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Charge Shooter"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Speaker Note Shot"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "Auto Intake"
+                }
+              },
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Right Sub Note 3"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Note 3 to Sub"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Charge Shooter"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Speaker Note Shot"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

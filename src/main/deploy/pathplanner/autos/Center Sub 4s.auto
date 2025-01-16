@@ -1,0 +1,118 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.3216735004898588,
+      "y": 5.55593454044051
+    },
+    "rotation": 180.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "Speaker Note Shot"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Center Sub to Note 1"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Auto Intake"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Note 1 to Center Sub"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Speaker Note Shot"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Center Sub to Note 2"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Auto Intake"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Note 2 to Center Sub"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Speaker Note Shot"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Left Sub to Note 3"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Auto Intake"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Left Note 3 to Sub"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Speaker Note Shot"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

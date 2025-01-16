@@ -1,0 +1,27 @@
+{
+  "Connections": {
+    "open": true
+  },
+  "NetworkTables Settings": {
+    "mode": "Server"
+  },
+  "Server": {
+    "Publishers": {
+      "open": true
+    },
+    "open": true
+  },
+  "retained": {
+    "Shuffleboard": {
+      "open": true
+    }
+  },
+  "transitory": {
+    "photonvision": {
+      "c922_Pro_Stream_Webcam": {
+        "open": true
+      },
+      "open": true
+    }
+  }
+}
